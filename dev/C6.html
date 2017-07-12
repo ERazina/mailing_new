@@ -1,0 +1,27 @@
+@@include("includes/start.html")
+@@include("includes/header.html")
+<tr>
+	<td class="one-column content row">
+		<div class="column">
+			<table class="inner" width="100%" cellpadding="20">
+				<tr>
+					<td class="cell">
+						<div class="h1">ВАШ ЗАКАЗ В ТЕХНОСИЛЕ {$ORDERNUMBER} ОТМЕНЕН</div>
+						<br>
+						<div class="paragraph">
+							Здравствуйте, {$UserFIO}!
+							<br><br>
+							Ваш заказ в Техносиле {$OrderNumber} отменен в связи с окончанием срока резерва. Если вы хотите оформить новый заказ на этот же товар, пожалуйста, позвоните нам по телефону <a href="tel:+78007752100" class="phone"><b>8&nbsp;800&nbsp;775&nbsp;21&nbsp;00</b></a>, звонок по России бесплатный.
+						</div>
+						<br>
+						@@include("includes/signature.html")
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+</tr>
+{$Recommendations}
+@@include("includes/features.html")
+@@include("mb-includes/footer.html")
+@@include("includes/end.html")

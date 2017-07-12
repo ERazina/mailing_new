@@ -1,0 +1,36 @@
+@@include("includes/start.html")
+@@include("includes/header.html")
+<tr>
+	<td class="one-column content row">
+		<div class="column">
+			<table class="inner" width="100%" cellpadding="20">
+				<tr>
+					<td class="cell">
+						<div class="h1">ВАШ ЗАКАЗ В ТЕХНОСИЛЕ {$ORDERNUMBER} ОТПРАВЛЕН.</div>
+						<br>
+						<div class="paragraph">
+							Здравствуйте, {$UserFIO}!
+							<br><br>
+							Заказ {$OrderNumber} отправлен в выбранный вами магазин.
+							<br><br>
+							Как только заказ будет готов к выдаче, мы сообщим вам об этом по электронной почте и SMS, после чего вы сможете оплатить и забрать заказ в любое удобное время.
+							<br><br>
+							Ваш заказ:<br>
+							{$OrderContent}
+							<br><br>
+							Итого на сумму: <b>{$TotalToPay} Р.</b>
+							<br><br>
+							Благодарим за заказ!
+						</div>
+						<br>
+						@@include("includes/signature.html")
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+</tr>
+@@include("includes/call-us.html")
+@@include("includes/features.html")
+@@include("mb-includes/footer.html")
+@@include("includes/end.html")

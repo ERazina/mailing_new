@@ -1,0 +1,28 @@
+@@include("includes/start.html")
+@@include("includes/header.html")
+<tr>
+	<td class="one-column content row">
+		<div class="column">
+			<table class="inner" width="100%" cellpadding="20">
+				<tr>
+					<td class="cell">
+						<div class="h1">МЫ НЕ СМОГЛИ ДОЗВОНИТЬСЯ ВАМ, ЧТОБЫ СОГЛАСОВАТЬ ЗАКАЗ В ТЕХНОСИЛЕ {$ORDERNUMBER}</div>
+						<br>
+						<div class="paragraph">
+							Здравствуйте, {$UserFIO}!
+							<br><br>
+							Нам не удалось дозвониться по указанному в заказе <b>{$OrderNumber}</b> номеру телефона.
+							<br><br>
+							Пожалуйста, позвоните нам для согласования заказа по телефону <a href="tel:+78007752100" class="phone"><b>8&nbsp;800&nbsp;775&nbsp;21&nbsp;00</b></a> в любое удобное время (мы работаем круглосуточно). Для жителей России звонок бесплатный.
+						</div>
+						<br>
+						@@include("includes/signature.html")
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+</tr>
+@@include("includes/features.html")
+@@include("mb-includes/footer.html")
+@@include("includes/end.html")

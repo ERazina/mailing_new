@@ -1,0 +1,44 @@
+.reviews {
+    border-top: #efede7 10px solid;
+    border-bottom: #efede7 10px solid;
+    text-align: left;
+}
+
+.reviews .itemPicture-cell {
+    padding:20px 20px 10px 20px;
+}
+
+.reviews .itemPicture {
+    width:100%;
+    height: auto;
+}
+
+.reviews .itemLabel-cell {
+    padding:0 20px 5px 20px;
+}
+
+.reviews .itemName-cell {
+    padding:0 20px;
+}
+
+.reviews .itemDescription-cell {
+    padding:5px 20px 0 20px;
+}
+
+.reviews .itemDescription {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.reviews .button-cell {
+    padding:20px;
+}
+
+.reviews .button {
+    max-width: 160px;
+}
+
+.reviews .button-link {
+    border: gold 10px solid;
+}

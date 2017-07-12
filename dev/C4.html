@@ -1,0 +1,32 @@
+@@include("includes/start.html")
+@@include("includes/header.html")
+<tr>
+	<td class="one-column content row">
+		<div class="column">
+			<table class="inner" width="100%" cellpadding="20">
+				<tr>
+					<td class="cell">
+						<div class="h1">ВАШ ЗАКАЗ В ТЕХНОСИЛЕ {$ORDERNUMBER}</div>
+						<br>
+						<div class="paragraph">
+							Здравствуйте, {$UserFIO}!
+							<br><br>
+							К сожалению, выбранный вами товар отсутствует в Техносиле, поэтому заказ {$OrderNumber} не может быть выполнен.
+							<br><br>
+							Может быть, вам понравится что-то другое? Наш ассортимент насчитывает более 25000 позиций: от электроники и бытовой техники до игрушек и мебели - вы наверняка найдете что-то по душе! Вдохновитесь выбором в нашем каталоге <a href="http://tehnosila.ru"><span>tehnosila.ru</span></a>.
+							<br><br>
+							Приносим свои извинения за доставленные неудобства!
+						</div>
+						<br>
+						@@include("includes/signature.html")
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+</tr>
+{$Recommendations}
+@@include("includes/call-us.html")
+@@include("includes/features.html")
+@@include("mb-includes/footer.html")
+@@include("includes/end.html")

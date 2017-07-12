@@ -1,0 +1,89 @@
+.title-recomend
+{
+    color: #1c1c1c;
+    font-family: 'Helvetica', 'Arial';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 24px 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.recoms-block .item-cell {
+    padding: 10px 24px 15px 24px;
+}
+
+.recoms-block .itemPicture {
+    width: auto;
+}
+
+.recoms-block .itemPrice-cell {
+    padding-bottom: 25px;
+}
+
+.recoms-block .itemPrice {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 0;
+    line-height: 20px;
+    text-align: left;
+}
+
+.recoms-block .oldPrice {
+    font-size: 16px;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+.recoms-block .newPrice {
+    font-size: 24px;
+    white-space: nowrap;
+    color: #fd001e;
+    font-weight: bold;
+}
+
+.recoms-block .allPrice {
+    color: #000;
+    white-space: nowrap;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.recoms-block .monthPrice {
+    color: #000;
+    white-space: nowrap;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.recoms-block .itemCurrency {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 13px;
+}
+
+.recoms-block .itemDiscount {
+    padding-top: 10px;
+}
+
+.recoms-block .itemName-cell {
+    height: 55px;
+    padding: 8px 0 4px 0;
+}
+
+.recoms-block .itemName {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.recoms-block .itemName a  {
+    text-decoration: none;
+}
+
+.recoms-block .button-link {
+    border: gold 11px solid;
+    font-size: 22px;
+    font-weight: 500;
+}

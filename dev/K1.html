@@ -1,0 +1,37 @@
+@@include("includes/start.html")
+@@include("includes/header.html")
+<tr>
+	<td class="one-column content row">
+		<div class="column">
+			<table class="inner" width="100%" cellpadding="20">
+				<tr>
+					<td class="cell">
+						<div class="h1">СПАСИБО, ВАШ ЗАКАЗ ПРИНЯТ</div>
+						<br>
+						<div class="paragraph">
+							Здравствуйте, {$UserFIO}!
+							<br><br>
+							Мы доставим ваш заказ по адресу: {$DeliveryPlace}<br>
+							Дата доставки: {$DeliveryDate}<br>
+							Получатель: {$OrderRecipient}
+							<br><br>
+							Для подтверждения с вами свяжется сотрудник нашего контакт-центра.
+							<br><br>
+							Ваш заказ:<br>
+							{$OrderContent}
+							<br><br>
+							Итого на сумму: <b>{$TotalToPay} Р.</b>
+						</div>
+						<br>
+						@@include("includes/signature.html")
+					</td>
+				</tr>
+			</table>
+		</div>
+	</td>
+</tr>
+{$Recommendations}
+@@include("includes/call-us.html")
+@@include("includes/features.html")
+@@include("mb-includes/footer.html")
+@@include("includes/end.html")

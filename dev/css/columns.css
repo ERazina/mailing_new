@@ -1,0 +1,28 @@
+.one-column, .two-columns, .three-columns, .four-columns, .column-img {
+    text-align: center;
+    font-size: 0;
+}
+.column,
+.column-img {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    text-align: left;
+}
+.column-img {
+    max-width: 240px;
+    padding: 5px;
+}
+.one-column .column {
+    max-width: 600px;
+}
+.two-columns .column {
+    max-width: 300px;
+}
+.three-columns .column {
+    max-width: 190px;
+}
+.four-columns .column {
+    max-width: 300px;
+}
